@@ -4,7 +4,7 @@
 Jeu de mots croisés interactif en JavaScript
 
 ## Statut
-🚧 Projet en cours de développement 🚧
+ Projet en cours de développement 
 
 ## À venir
 - Structure HTML
