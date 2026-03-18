@@ -14,3 +14,4 @@ Jeu de mots croisés interactif en JavaScript
 
 ## Auteur
 BenAli Doua
+https://crosswordlabs.com/view/mots-croises-informatique
