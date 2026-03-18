@@ -6,10 +6,29 @@
     <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
+    
   <div class="container">
     <h1> Mots croisés:HARDWARE </h1>
+            <div class="instructions">
+            <div class="instruction-header">
+                <span class="instruction-icon">🔧</span>
+                <h2>CONSIGNES DE CONFIGURATION</h2>
+            </div>
+            <div class="instruction-content">
+                <p> <strong>Objectif :</strong> Trouve les 7 mots cachés dans la grille.</p>
+                <p> Les mots peuvent être horizontaux ou verticaux.</p>
+                <p>Les lettres sont vérifiées en temps réel.</p>
+                <p> Utilise les flèches du clavier pour te déplacer.</p>
+            </div>
+            <div class="instruction-grid-info">
+                <span class="direction-hint"> Horizontaux : déplacement vers la droite</span>
+                <span class="direction-hint"> Verticaux : déplacement vers le bas</span>
+            </div>
+        </div>
+        
     <div class="content">
         <div class="grid" id="crossword">
+           <div class="meta">
           <p>PROGRESSION/<strong id="percent">0%</strong></p>
            <div class="progress"><div id="bar"></div></div>
             <p id="status">Composants trouvés : 0 / 10</p>
@@ -17,50 +36,29 @@
               <button id="reveal">Afficher la solution</button>
               <button id="reset" class="ghost">Réinitialiser</button>
             </div>
-               <div class="clues">
-        <h2>DÉFINITIONS</h2>
-        
-        <h3>ACROSS</h3>
-        <ol start="2">
-          <li><strong>2.</strong> Groupe d'ordinateurs connectés pour échanger des données</li>
-          <li><strong>4.</strong> Programme malveillant qui se propage</li>
-          <li><strong>5.</strong> Logiciel intégré dans un matériel</li>
-          <li><strong>7.</strong> Processeur central de l'ordinateur</li>
-          <li><strong>8.</strong> Serveur intermédiaire pour contrôler l'accès</li>
-          <li><strong>11.</strong> Protection des systèmes informatiques</li>
-          <li><strong>14.</strong> Voie de communication entre composants</li>
-          <li><strong>15.</strong> Périphérique pour saisir du texte</li>
-          <li><strong>22.</strong> Machine électronique de traitement</li>
-          <li><strong>23.</strong> Réseau local</li>
-          <li><strong>24.</strong> Fils pour transmettre des données</li>
-          <li><strong>27.</strong> Série d'étapes pour résoudre un problème</li>
-          <li><strong>29.</strong> Représentation visuelle de données</li>
-          <li><strong>30.</strong> Langage de balisage web</li>
-          <li><strong>31.</strong> Stockage en ligne</li>
-          <li><strong>32.</strong> Réseau sans fil</li>
-        </ol>
-        
-        <h3>DOWN</h3>
-        <ol start="1">
-          <li><strong>1.</strong> Langage orienté objet</li>
-          <li><strong>3.</strong> Ordinateur fournissant des services</li>
-          <li><strong>6.</strong> Connecte et dirige le trafic réseau</li>
-          <li><strong>7.</strong> Programme pour coder/décoder</li>
-          <li><strong>9.</strong> Collection organisée d'informations</li>
-          <li><strong>10.</strong> Informations brutes</li>
-          <li><strong>12.</strong> Ensemble de programmes</li>
-          <li><strong>13.</strong> Instructions exécutables</li>
-          <li><strong>16.</strong> Composants physiques</li>
-          <li><strong>17.</strong> Unité de stockage</li>
-          <li><strong>18.</strong> Système de sécurité réseau</li>
-          <li><strong>19.</strong> Mot de passe</li>
-          <li><strong>20.</strong> Périphérique d'affichage</li>
-          <li><strong>21.</strong> Périphérique de pointage</li>
-          <li><strong>25.</strong> Unité élémentaire d'information</li>
-          <li><strong>26.</strong> Unité de 8 bits</li>
-          <li><strong>28.</strong> Pare-feu</li>
-        </ol>
-      </div>
+           </div>
+            <div class="clues">
+                <h2>DÉFINITIONS</h2>
+                
+                <h3>⬇️ VERTICAL</h3>
+                <ol start="1">
+                    <li><strong>1.</strong> <span class="clue-text">Un langage de programmation orienté objet couramment utilisé pour le développement d'applications logicielles.</span></li>
+                    <li><strong>3.</strong> <span class="clue-text">Un ordinateur ou un système qui fournit des services à d'autres ordinateurs ou périphériques connectés à un réseau.</span></li>
+                    <li><strong>6.</strong> <span class="clue-text">Un périphérique qui connecte différents réseaux informatiques et qui dirige le trafic entre eux.</span></li>
+                    <li><strong>7.</strong> <span class="clue-text">Un programme ou un algorithme utilisé pour coder et décoder des données numériques.</span></li>
+                    <li><strong>9.</strong> <span class="clue-text">Une collection organisée d'informations électroniques stockées sur un ordinateur ou un serveur.</span></li>
+                </ol>
+                
+                <h3>➡️ HORIZONTAL</h3>
+                <ol start="2">
+                    <li><strong>2.</strong> <span class="clue-text">Un groupe d'ordinateurs et de périphériques connectés qui permettent la communication et l'échange de données.</span></li>
+                    <li><strong>4.</strong> <span class="clue-text">Un programme informatique malveillant conçu pour se propager et endommager les données et les systèmes informatiques.</span></li>
+                    <li><strong>5.</strong> <span class="clue-text">Un logiciel intégré dans un matériel informatique qui contrôle son fonctionnement.</span></li>
+                    <li><strong>7.</strong> <span class="clue-text">Le processeur central d'un ordinateur, responsable de l'exécution des opérations de traitement des données.</span></li>
+                    <li><strong>8.</strong> <span class="clue-text">Un serveur qui sert d'intermédiaire entre les ordinateurs sur un réseau et l'Internet, utilisé pour contrôler l'accès et protéger la vie privée.</span></li>
+                </ol>
+            </div>
+
         </div>
 
     
